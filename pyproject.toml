@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "noise-cancelation-lab"
+version = "0.1.0"
+description = ""
+authors = ["Raphael Tang <raphpb1912@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+PyAudio = "^0.2.11"
+numpy = "^1.20.3"
+
+[tool.poetry.dev-dependencies]
+black = {version = "^21.6b0", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
